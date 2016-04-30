@@ -8,7 +8,7 @@ fi
 version=$1
 zip_name=alohaeditor-$version.zip
 
-curl http://aloha-editor.org/builds/stable/$zip_name > /tmp/$zip_name
+curl -L https://maven.gentics.com/maven2/org/alohaeditor/alohaeditor/$version/$zip_name > /tmp/$zip_name
 
 cd /tmp/
 rm -rf alohaeditor-$version

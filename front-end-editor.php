@@ -10,8 +10,8 @@ Text Domain: front-end-editor
 Domain Path: /lang
 */
 
-define( 'FEE_VERSION', '2.3.1' );
-define( 'ALOHA_VERSION', '0.23.12' );
+define( 'FEE_VERSION', '2.4.0' );
+define( 'ALOHA_VERSION', '1.4.9' );
 
 define( 'FEE_MAIN_FILE', __FILE__ );
 
